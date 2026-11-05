@@ -25,12 +25,12 @@ export default function App() {
     return false;
   });
 
-  // Repository state (configured to user request)
+  // Repository state (configured to user repository)
   const [repoUrl, setRepoUrl] = useState<string>(() => {
     if (typeof window !== 'undefined') {
-      return localStorage.getItem('strata_repo_url') || 'https://github.com/monishwaran/strata-cloud-landing';
+      return localStorage.getItem('strata_repo_url') || 'https://github.com/monishwaran-b/SWYNEX-Responsive-Landing-Page';
     }
-    return 'https://github.com/monishwaran/strata-cloud-landing';
+    return 'https://github.com/monishwaran-b/SWYNEX-Responsive-Landing-Page';
   });
 
   // Modals state
