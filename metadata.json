@@ -1,0 +1,8 @@
+{
+  "name": "Strata Cloud - Real-Time Developer Infrastructure",
+  "description": "High-performance responsive landing page for Strata Cloud with interactive latency benchmarks, bento grid features, pricing calculator, and GitHub repository integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
